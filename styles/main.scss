@@ -471,15 +471,16 @@ section {
 }
 
 .institute-name {
-  padding-top: 25px;
-  font-size: 24px;
+  padding-top: 18px;
+  font-size: 22px;
   font-weight: bold;
 }
 
 .institute-degree {
   font-weight: 100;
   font-style: italic;
-  font-size: 16px;
+  font-size: 14px;
+  line-height:12px;
 }
 
 .institute-logo {
@@ -698,7 +699,33 @@ section {
   background: transparent;
   text-shadow: none;
   transition: 250ms;
+  border: none;
+}
 
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #dfdfdf;
+  border-radius: 0px;
+  box-shadow:none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
+  background:#f8f8f8;
+  box-shadow: none;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -743,7 +770,7 @@ section {
   background: transparent;;
 }
 
-@media screen and (max-width: 734px) {
+@media screen and (max-width: 800px) {
 
   .project-wrap {
     height:400px;
@@ -758,23 +785,26 @@ section {
   }
 
   .contact-container {
-    width: 414px;
+    width: 100%;
   }
 
   .education-container {
-    width: 414px;
+    width: 100% !important;
+    position:relative;
   }
 
   .education li {
-    display:block;
     padding-top:20px;
     padding-bottom:20px;
-
+    width:50%;
   }
 
-  .education li:first-child {
-    border-right: 0;
-    border-bottom: 1px solid #dfdfdf;
+  .education-li {
+    width:50%;
+    padding-left:30px;
+  }
+
+  .education li:last-child {
   }
 
   .education-contact-wrap {
@@ -784,17 +814,32 @@ section {
   .logo {
     padding-top:75px;
   }
+  .institute-name {
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+  .institute-degree {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 10px;
+}
+
+  .institute-logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+  }
 
 }
 
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 413px)
-and (orientation : portrait) {
+@media screen and (min-width : 320px) and (max-width : 500px) {
 
   .project-wrap {
-    height:400px;
+    height:300px;
   }
 
   .contact-form {
@@ -802,19 +847,19 @@ and (orientation : portrait) {
   }
 
   .contact-list {
-    padding-left:50px;
+    padding-left:35px;
   }
 
   .contact-container {
-    width: 320px;
+    width: 100%;
   }
 
   .education-container {
-    width: 320px;
+    width: 100%;
   }
 
   .education-li {
-    width: 320px;
+    width: 100%;
     display:block;
     padding-top:20px;
     padding-bottom:20px;
@@ -822,6 +867,11 @@ and (orientation : portrait) {
 
   }
 
+  .education li {
+    width:100%;
+    padding-left:35px;
+  }
+
   .education li:first-child {
     border-right: 0;
     border-bottom: 1px solid #dfdfdf;
@@ -831,7 +881,32 @@ and (orientation : portrait) {
     height:auto;
   }
 
+  .institute-name {
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+  .institute-degree {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+  .institute-logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+  }
+
   .logo {
     padding-top:75px;
+  }
+
+  .my-logo {
+    width: 150px;
+    height: 150px;
+    background-size: contain;
   }
 }
