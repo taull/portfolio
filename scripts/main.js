@@ -11,16 +11,24 @@ $(function(){
     });
 });
 
+$('.connect-button').on('click', function(){
+event.preventDefault();
+
+
+  $('.social-buttons').toggleClass('open-social-module');
+
+});
+
 // FullPage.js
 
   $(document).ready(function() {
     $('#fullpage').fullpage({
         //Navigation
         menu: false,
-        anchors:['home', 'services', 'contact'],
+        anchors:['home', 'projects', 'services', 'contact'],
         navigation: false,
         navigationPosition: 'right',
-        navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide'],
+        navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide'],
         showActiveTooltips: false,
         slidesNavigation: true,
         slidesNavPosition: 'bottom',
@@ -50,7 +58,7 @@ $(function(){
         controlArrows: true,
         verticalCentered: false,
         resize : false,
-        sectionsColor : ['#222', '#f0f0f0', '#f8f8f8'],
+        sectionsColor : ['#222', 'transparent', '#f0f0f0', '#f8f8f8'],
         fixedElements: '#header, .footer',
         responsive: 1080,
 

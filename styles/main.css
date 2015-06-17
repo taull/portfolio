@@ -57,6 +57,7 @@ body {
   .services li {
     display: inline-block;
     width: 33.333333333%;
+    height: 50vh;
     padding: 50px 50px;
     border-right: 1px solid #dfdfdf;
     border-left: 1px solid #fff;
@@ -67,6 +68,52 @@ body {
   .services h1 {
     font-size: 24px; }
   .services p {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 300; }
+
+/* Project Thumbnails */
+/* Services */
+.projects-wrap {
+  width: 100%;
+  height: 100%; }
+
+.projects {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%; }
+  .projects ul {
+    list-style: none;
+    padding-left: 0; }
+  .projects li {
+    display: inline-block;
+    width: 33.333333333%;
+    height: 50vh;
+    padding: 50px 50px; }
+  .projects li:first-child {
+    background: url("../images/workspace-1.png") center center;
+    background-size: cover; }
+  .projects li:nth-child(2) {
+    background: url("../images/ironyard-logo.png") center center;
+    background-size: cover; }
+  .projects li:nth-child(3) {
+    background: url("../images/surf-mockup.png") center center;
+    background-size: cover; }
+  .projects li:nth-child(4) {
+    background: url("../images/thailand.jpg") center center;
+    background-size: cover; }
+  .projects li:nth-child(5) {
+    background: url("../images/railroad-bw.jpg") center center;
+    background-size: cover; }
+  .projects li:nth-child(6) {
+    background: url("../images/ember-logo.png") center center;
+    background-size: cover; }
+  .projects li:nth-child(3n) {
+    border-right: 1px solid #fff; }
+  .projects h1 {
+    font-size: 24px; }
+  .projects p {
     padding-top: 10px;
     font-size: 16px;
     font-weight: 300; }
@@ -103,7 +150,8 @@ body {
   width: 1080px;
   margin: 0 auto;
   height: 100%;
-  padding: 0 30px; }
+  padding: 0 30px;
+  position: relative; }
 
 .banner-menu {
   position: absolute;
@@ -131,6 +179,22 @@ body {
     border-bottom: 5px solid #f8f8f8; }
   .banner-menu span:hover {
     color: #f8f8f8; }
+
+.banner-call {
+  position: absolute;
+  bottom: 100px;
+  left: 30px;
+  width: 500px; }
+
+.banner-heading p {
+  font-size: 64px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
+  line-height: 56px;
+  bottom: 0; }
 
 .contact-container {
   width: 800px;
@@ -240,6 +304,53 @@ body {
 
 .fixed {
   position: fixed; }
+
+/* Social Module */
+.social-module {
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 50px; }
+
+.connect-button {
+  width: 200px;
+  height: 100px;
+  background: #8BC34A;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  font-size: 18px;
+  transition: 250ms; }
+  .connect-button p {
+    font-size: 24px;
+    color: #f8f8f8;
+    padding-top: 35px;
+    font-weight: 300; }
+
+.social-buttons {
+  width: 100px;
+  height: 100px;
+  background: #333;
+  position: absolute;
+  right: 0;
+  font-size: 40px;
+  transition: 250ms; }
+  .social-buttons ul {
+    list-style: none;
+    padding-left: 0; }
+  .social-buttons li {
+    width: 33.33333%;
+    text-align: center;
+    padding-top: 35px;
+    color: #f8f8f8;
+    display: inline-block; }
+  .social-buttons span {
+    font-size: 36px; }
+
+.open-social-module {
+  right: 200px;
+  width: 300px; }
 
 /* Banner */
 .my-logo {
