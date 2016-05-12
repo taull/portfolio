@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml-stylesheet type="text/css" href="styles/main.css"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="30px" height="30px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
+	<defs>
+		<linearGradient id="grad-logo-1" x1="70%" y1="0%" x2="0%" y2="80%">
+			<stop offset="0%" style="stop-color:rgb(83,109,254);stop-opacity:1" />
+			<stop offset="100%" style="stop-color:rgb(83,109,254);stop-opacity:1" />
+		</linearGradient>
+		<linearGradient id="grad-logo-2" x1="70%" y1="0%" x2="0%" y2="80%">
+			<stop offset="0%" style="stop-color:rgb(124,77,255);stop-opacity:1" />
+			<stop offset="100%" style="stop-color:rgb(124,77,255);stop-opacity:1" />
+		</linearGradient>
+	</defs>
+	<polygon style="opacity: 1;" fill="url(#grad-logo-2)" points="275.863,201.588 275.908,136.583 275.988,24.69 199.301,68.893 "/>
+	<polygon style="opacity: 1;" fill="url(#grad-logo-1)" points="169.318,82.833 21.08,168.278 170.776,254.846 317.531,339.713 "/>
+</svg>
